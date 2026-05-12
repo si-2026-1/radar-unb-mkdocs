@@ -1,5 +1,17 @@
 site_name: Radar UnB
 
+nav:
+  - Início: index.md
+  - Escopo: escopo/escopo.md
+  - Problema: problema/problema.md
+  - Requisitos:
+    - Requisitos Funcionais: requisitos/req-funcionais.md
+    - Requisitos Não-Funcionais: requisitos/req-nao-funcionais.md
+  - Épicos:
+    - Controle de Acesso: epicos/01-controle-de-acesso.md
+    - Mapa Interativo: epicos/02-mapa-interativo.md
+    - Gestão de Ocorrências: epicos/03-gestao-de-ocorrencias.md
+
 theme:
   name: material
   features:
