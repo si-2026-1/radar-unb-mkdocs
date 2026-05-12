@@ -1,0 +1,29 @@
+site_name: Radar UnB
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - content.code.copy
+    - content.action.edit
+  custom_dir: overrides
+
+markdown_extensions:
+  - meta
+  - pymdownx.superfences
+
+extra:
+  analytics:
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/thumb-down-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback!
